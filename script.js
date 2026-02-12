@@ -300,14 +300,78 @@ setInterval(() => {
  */
 const certificateData = {
     'cert1': {
-        title: 'Certified Ethical Hacker (CEH)',
-        issuer: 'EC-Council',
-        date: 'Issued: 2024',
-        image: 'images/certificates/ceh-certificate.jpg',
-        description: 'Comprehensive certification covering penetration testing, vulnerability assessment, and ethical hacking methodologies. Demonstrated proficiency in identifying security weaknesses and implementing countermeasures.',
-        verifyLink: 'https://aspen.eccouncil.org/verify'
+        title: 'Introduction to Cybersecurity',
+        issuer: 'Cisco',
+        date: 'Issued: 2026',
+        image: 'images/certs/Intro-to-Cybersec.jpg',
+        description: 'Fundamentals of cyber threats, security principles, and defensive strategies.',
+        verifyLink: 'https://www.credly.com/badges/85ef00ac-bd00-4ad8-accf-d537ebbe4bfb/public_url'
     },
     'cert2': {
+        title: 'Operating Systems Basics',
+        issuer: 'Cisco',
+        date: 'Issued: 2025',
+        image: 'images/certs/OS-Basics.jpg',
+        description: 'Core concepts of operating systems, processes, memory, and system management.',
+        verifyLink: 'https://www.credly.com/badges/282c243b-03f1-49fa-ab6c-2fad7cfdb45d/public_url'
+    },
+    'cert3': {
+        title: 'Python Essentials 1',
+        issuer: 'Cisco',
+        date: 'Issued: 2025',
+        image: 'images/certs/Py-Ess1.jpg',
+        description: 'Foundational Python programming concepts, syntax, and problem-solving.',
+        verifyLink: 'https://www.credly.com/badges/215abba6-467d-4309-b5c8-f3135a1d896a/public_url'
+    },
+    'cert4': {
+        title: 'Python Essentials 2',
+        issuer: 'Cisco',
+        date: 'Issued: 2025',
+        image: 'images/certs/Py-Ess2.jpg',
+        description: 'Intermediate Python skills including OOP, modules, and data handling.',
+        verifyLink: 'https://www.credly.com/badges/72a64fa4-e3e5-44d9-862d-f361cc876d64/public_url'
+    },
+    'cert5': {
+        title: 'Civil Service Eligibility (Professional)',
+        issuer: 'Civil Service Commission ',
+        date: 'Issued: 2025',
+        image: 'images/certs/CSE.jpg',
+        description: 'Certified eligibility for professional positions in Philippine government service.',
+        verifyLink: 'https://csevs.csc.gov.ph/user/eligibility'
+    },
+    'cert6': {
+        title: 'NC-II Certificate',
+        issuer: 'Tesda',
+        date: 'Issued: 2024',
+        image: 'images/certs/NC2.jpg',
+        description: 'National certification validating technical and vocational competency in the assigned specialization.',
+        verifyLink: 'https://t2mis.tesda.gov.ph/Learners/S/78004C00580031004C004100390033003000320051005000680037004D0058004F005600730049004E0038002F0057004B0038006F005800570066004500360032004A003900480046005800440053007100700049003D00'
+    },
+    'cert7': {
+        title: 'Hack4Gov 2025',
+        issuer: 'DICT',
+        date: 'Issued: 2025',
+        image: 'images/certs/.jpg',
+        description: 'Participated in a government-focused CTF covering cybersecurity, forensics, and problem-solving challenges.',
+        verifyLink: 'no-verify.html'
+    },
+    'cert8': {
+        title: 'Trend Micro University Capture the Flag Participant',
+        issuer: 'Trend Micro',
+        date: 'Issued: 2025',
+        image: 'images/certs/uctf.jpg',
+        description: 'Engaged in hands-on security challenges involving threat analysis, networking, and defensive techniques.',
+        verifyLink: 'no-verify.html'
+    },
+    'cert9': {
+        title: 'Kaspersky CTF Participant',
+        issuer: 'Kaspersky',
+        date: 'Issued: 2025',
+        image: 'images/certs/Kasp.jpg',
+        description: 'Competed in cybersecurity challenges emphasizing malware analysis, cryptography, and system security.',
+        verifyLink: 'no-verify.html'
+    },
+    'cert10': {
         title: 'Cisco Certified Network Associate',
         issuer: 'Cisco',
         date: 'Issued: 2023',
@@ -315,7 +379,7 @@ const certificateData = {
         description: 'Validates skills in network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability.',
         verifyLink: 'https://www.cisco.com/go/verify'
     },
-    'cert3': {
+    'cert11': {
         title: 'Python for Data Science',
         issuer: 'DataCamp',
         date: 'Issued: 2023',
@@ -323,7 +387,7 @@ const certificateData = {
         description: 'Completed comprehensive training in Python programming for data analysis, visualization, and machine learning applications.',
         verifyLink: 'https://www.datacamp.com/statement-of-accomplishment'
     },
-    'cert4': {
+    'cert12': {
         title: 'Linux Administration',
         issuer: 'Linux Foundation',
         date: 'Issued: 2024',
