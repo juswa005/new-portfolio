@@ -351,7 +351,7 @@ const certificateData = {
         title: 'Hack4Gov 2025',
         issuer: 'DICT',
         date: 'Issued: 2025',
-        image: 'images/certs/.jpg',
+        image: 'images/certs/h4g.jpeg',
         description: 'Participated in a government-focused CTF covering cybersecurity, forensics, and problem-solving challenges.',
         verifyLink: 'no-verify.html'
     },
@@ -372,28 +372,44 @@ const certificateData = {
         verifyLink: 'no-verify.html'
     },
     'cert10': {
-        title: 'Cisco Certified Network Associate',
-        issuer: 'Cisco',
-        date: 'Issued: 2023',
-        image: 'images/certificates/ccna-certificate.jpg',
-        description: 'Validates skills in network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation and programmability.',
-        verifyLink: 'https://www.cisco.com/go/verify'
+        title: 'RegCon 2025 – Certificate of Achievement (SUMOBOT)',
+        issuer: 'ICPEP Region 2',
+        date: 'Issued: 2026',
+        image: 'images/certs/sumo.jpeg',
+        description: 'Recognized for competitive performance in a robotics sumobot competition.',
+        verifyLink: 'no-verify.html'
     },
     'cert11': {
-        title: 'Python for Data Science',
-        issuer: 'DataCamp',
-        date: 'Issued: 2023',
-        image: 'images/certificates/python-datascience.jpg',
-        description: 'Completed comprehensive training in Python programming for data analysis, visualization, and machine learning applications.',
-        verifyLink: 'https://www.datacamp.com/statement-of-accomplishment'
+        title: 'RegCon 2024 – Certificate of Participation(1)',
+        issuer: 'ICPEP Region 2',
+        date: 'Issued: 2025',
+        image: 'images/certs/regcon241.jpeg',
+        description: 'Active participation in ICPEP Regional Convention technical activities and seminars.',
+        verifyLink: 'no-verify.html'
     },
-    'cert12': {
-        title: 'Linux Administration',
-        issuer: 'Linux Foundation',
-        date: 'Issued: 2024',
-        image: 'images/certificates/linux-admin.jpg',
-        description: 'Mastered Linux system administration including user management, shell scripting, network configuration, and system security.',
-        verifyLink: 'https://www.linuxfoundation.org/certification/verify'
+     'cert12': {
+        title: 'RegCon 2024 – Certificate of Participation(2)',
+        issuer: 'ICPEP Region 2',
+        date: 'Issued: 2025',
+        image: 'images/certs/regcon242.jpeg',
+        description: 'Active participation in ICPEP Regional Convention technical activities and seminars.',
+        verifyLink: 'no-verify.html'
+    },
+     'cert13': {
+        title: 'RegCon 2025 – Certificate of Participation(1)',
+        issuer: 'ICPEP Region 2',
+        date: 'Issued: 2026',
+        image: 'images/certs/regcon251.jpeg',
+        description: 'Continued engagement in regional engineering events and skill-building sessions.',
+        verifyLink: 'no-verify.html'
+    },
+    'cert14': {
+        title: 'RegCon 2025 – Certificate of Participation(2)',
+        issuer: 'ICPEP Region 2',
+        date: 'Issued: 2026',
+        image: 'images/certs/regcon252.jpeg',
+        description: 'Continued engagement in regional engineering events and skill-building sessions.',
+        verifyLink: 'no-verify.html'
     }
 };
 
